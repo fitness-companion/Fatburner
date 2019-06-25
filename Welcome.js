@@ -9,6 +9,7 @@ import {
   ActivityIndicator,
   Image,
   TouchableHighlight,
+  Platform,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
@@ -16,7 +17,7 @@ type Props = {
   navigation: Object;
 };
 
-export default class Home extends Component<{}> {
+export default class Welcome extends Component<{}> {
   constructor(props) {
     super(props);
     this.state = {
@@ -55,6 +56,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'green',
     color: 'white',
+    paddingTop: (Platform.OS) === 'ios' ? 20 : 0,
   },
   welcome: {
     fontSize: 50,
@@ -68,9 +70,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     margin: 10,
     color: 'white',
-  },
-  button: {
-    paddingTop: 100,
   },
   image: {
     marginTop: 15,

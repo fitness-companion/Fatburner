@@ -32,6 +32,7 @@ export default class Home extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
+      </View>
         /*
         <Button
           title="Start Now"
@@ -40,7 +41,6 @@ export default class Home extends Component<{}> {
           style={styles.button}
         />
         */
-      </View>
     );
   }
 }

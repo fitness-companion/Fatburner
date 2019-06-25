@@ -36,7 +36,7 @@ const RootStack = createStackNavigator(
     OptionsPage: {
       screen: OptionsPage,
       navigationOptions: {
-        title: "Dashboard"
+        title: "User Info"
       }
     },
     FoodPage: {
