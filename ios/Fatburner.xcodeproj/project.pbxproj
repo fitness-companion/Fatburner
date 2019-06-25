@@ -680,7 +680,6 @@
 			sourceTree = "<group>";
 			path = "";
 		};
->>>>>>> UI changes
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
