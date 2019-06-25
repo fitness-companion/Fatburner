@@ -19,7 +19,7 @@ function onDevice(){
     console.log("Code = " + r.responseCode);
     console.log("Response = " + r.response);
     console.log("Sent = " + r.bytesSent);
-//Watson Visual Recognition response display
+    // Watson Visual Recognition response display
     var Response =  JSON.parse(r.response);
     var optitle ="<h2>Watson sees..</h2>";
     document.getElementById("optitle").innerHTML = optitle;
@@ -106,3 +106,4 @@ function onDevice(){
                      });
                    }
                  }
+                 

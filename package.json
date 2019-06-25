@@ -7,21 +7,6 @@
     "test": "jest"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "react": "16.8.3",
-    "react-native": "0.59.9"
-=======
-    "express": "^4.17.1",
-    "file-system": "^2.2.2",
-    "formidable": "^1.2.1",
-    "fs": "0.0.1-security",
-    "ibm-watson": "^4.2.1",
-    "react": "16.8.3",
-    "react-native": "0.59.9",
-    "react-native-gesture-handler": "^1.3.0",
-    "react-native-vector-icons": "^6.5.0",
-    "react-navigation": "^3.11.0"
->>>>>>> UI changes
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
